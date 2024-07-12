@@ -18,11 +18,20 @@ body {
 .main{
     width: 50%;
     height: 100vh;
-    background:url(/img/wel4.avif);
+    background: linear-gradient(180deg,rgb(85, 11, 11) , rgb(255, 89, 0) , rgb(0, 17, 255));
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
     z-index: 2px;
+}
+.welcome{
+    font-style: oblique;
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 250px;
+    text-size-adjust: 200px;
+
 }
 .input1 {
     color: black;
